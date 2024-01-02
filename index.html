@@ -7,21 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    
-        <h1>zapatillas</h1>
+   <!-- titulo --> 
+<div> <h1> StreetStride</h1> </div>
+  
+<!-- Contenedor principal de la galería -->
+<div class="gallery-container" >
+  <!-- Galería con botones de adelante y atrás -->
+  <div class="gallery">
+    <!-- Botones para avanzar y retroceder -->
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <!-- Contenedor de la imagen y su descripción -->
+    <div class="image-wrapper">
+      <!-- Imagen principal -->
+      <img src="imagen4.jpeg" alt="Imagen 1" id="galleryImg">
+      <!-- Descripción de la imagen -->
+      <div class="description">Descripción de la imagen 1</div>
+    </div>
+    <!-- Botón para avanzar -->
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+</div>
 
-        <button class="btn" type="button">
-            <strong>CATALOGO EN LINEA.</strong>
-            <div id="container-stars">
-              <div id="stars"></div>
-            </div>
-          
-            <div id="glow">
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </button>
+<!-- Archivo de scripts -->
+<script src="script.js"></script>
+ 
+<!-- titulo menu -->
+<div> <h2>  Descubre nuestra colección de zapatillas.</h2></div>
+  
 
     
           <galeri class="galeria "  >
@@ -43,7 +55,7 @@
 
 
    
-                <div>
+                <div class="vinculo">
                     <!-- esta forma creamos el enlace con un whasapp-->
                     <a href="https://api.whatsapp.com/send?
                     phone=573106373826" ><img src="logo whatsapp.png" background-attachment="fixed" width="50px" height="50px" alt="" ></a>
