@@ -10,9 +10,9 @@ h1{
     position: absolute;
     transform: translate3d(-50, -50, 0);
     /*movemos el div a la isquierda disminuye derecha aumenta.*/
-    left: 50px%;
+    left: 30%;
     /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
-    top: -10%;
+    top: 60px%;
 }
 
 h2{
@@ -22,7 +22,7 @@ h2{
     /*movemos el div a la isquierda disminuye derecha aumenta.*/
     left: 3%;
     /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
-    top: 57%;
+    top: 50%;
 }
 
 
@@ -143,7 +143,7 @@ body{
 
 .galeria {
     
-    margin-top: 50px; /*ajustar margen superior de la galeria*/
+    margin-top: 90px; /*ajustar margen superior de la galeria*/
     margin-left: 10%; /*ajustar margen lateral*/
     display: flex;
     flex-wrap: wrap;
