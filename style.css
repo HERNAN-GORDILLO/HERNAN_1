@@ -12,7 +12,7 @@ h1{
     /*movemos el div a la isquierda disminuye derecha aumenta.*/
     left: 50px%;
     /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
-    top: -5%;
+    top: -10%;
 }
 
 h2{
