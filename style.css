@@ -12,7 +12,7 @@ h1{
     /*movemos el div a la isquierda disminuye derecha aumenta.*/
     left: 30%;
     /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
-    top: 60px%;
+    top: 24px;
 }
 
 h2{
@@ -20,9 +20,9 @@ h2{
     position: absolute;
     transform: translate3d(-50, -50, 0);
     /*movemos el div a la isquierda disminuye derecha aumenta.*/
-    left: 3%;
+    left: 10px;
     /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
-    top: 50%;
+    top: 300px;
 }
 
 
@@ -135,7 +135,7 @@ body{
     /* evitar el movimiento de la imagen de fondo*/
     background-attachment: fixed;
     /*para que la imagen cubra la pantalla*/
-    background-size: 99%;
+    background-size: 105%;
 
     
     
@@ -143,7 +143,7 @@ body{
 
 .galeria {
     
-    margin-top: 110px; /*ajustar margen superior de la galeria*/
+    margin-top: 3%; /*ajustar margen superior de la galeria*/
     margin-left: 10%; /*ajustar margen lateral*/
     display: flex;
     flex-wrap: wrap;
