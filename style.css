@@ -148,8 +148,8 @@ th {
 .image-container00 {
   position:relative;
   margin: 7px ;
-  top: 30%;
-  left: 50%;
+  top: 55%;
+  left: 48%;
   transform: translate(-50%, -50%);
   z-index: 10px;
 
@@ -159,7 +159,7 @@ th {
   background-size:contain; /* Ajusta la imagen para que cubra todo el div */
   background-repeat: no-repeat;
   background-position:top ; /* Centra la imagen dentro del div */
-  border: 5px solid rgba(245, 242, 242, 0); /* Borde para visualización */
+  border: 5px solid rgba(245, 241, 8, 0); /* Borde para visualización */
 }
 .image-container0 {
   position:relative;
@@ -175,7 +175,7 @@ th {
   background-size:contain; /* Ajusta la imagen para que cubra todo el div */
   background-repeat: no-repeat;
   background-position:top ; /* Centra la imagen dentro del div */
-  border: 5px solid rgba(247, 243, 243, 0); /* Borde para visualización */
+  border: 5px solid rgba(13, 68, 218, 0); /* Borde para visualización */
 }
 
 
@@ -197,8 +197,8 @@ th {
   .image-container2 {
     position:relative ;
     margin: 7px ;
-    top: 50%;
-    left: 50%;
+    top: 78%;
+    left: 48%;
     transform: translate(-50%, -50%);
 
     width: 100%; /* Ancho del div */
@@ -211,16 +211,20 @@ th {
   .image-container01 {
     position:relative ;
     margin: 0px 0px 0px 0px;
-    top: 30%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%; /* Ancho del div */
-    height: 80%; /* Alto del div */
+    height: 140%; /* Alto del div */
    
     background-size: cover; /* Ajusta la imagen para que cubra todo el div */
     background-position: center; /* Centra la imagen dentro del div */
     border: 5px solid rgba(12, 212, 45, 0); /* Borde para visualización */
+  }
+  h6{
+    color: aqua;
+    font-size: 70%;
   }
 
 
