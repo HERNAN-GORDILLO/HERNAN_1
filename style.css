@@ -72,7 +72,7 @@ body, html{
 /*aca se acomoda a que color 
 se dsea cambiar al poner el cursor*/
 a:hover {
-  color: rgb(214, 15, 15);
+  color: rgb(48, 71, 206);
 }
 
 
@@ -210,13 +210,13 @@ th {
   }
   .image-container01 {
     position:relative ;
-    margin: 0px ;
+    margin: 0px 0px 0px 0px;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%; /* Ancho del div */
-    height: 40%; /* Alto del div */
+    height: 80%; /* Alto del div */
    
     background-size: cover; /* Ajusta la imagen para que cubra todo el div */
     background-position: center; /* Centra la imagen dentro del div */
